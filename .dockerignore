@@ -1,0 +1,7 @@
+dist/
+*.log
+.env
+.DS_Store
+frontend/dist/
+data/
+images/

@@ -1,0 +1,12 @@
+# Local dependencies are required as Docker build input on BatServer, but are not source.
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Runtime state belongs under state/ and must never enter source control.
+data/
+images/
+variants/
+*.log
+.env
